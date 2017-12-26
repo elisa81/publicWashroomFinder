@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #f8fff2;
+  font-family: helvetica;
+
+}
+/* NAVIGATION BAR */
+#navigation-bar {
+  height : 8.5em;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+/* MAP CONTAINER COMPONENT DIVS */
+#options-bar {
+  margin-bottom: 20px;
+}
+
+/* INFO WINDOW FONTS */
+.info-window-header {
+  color : #070707;
+}
+
+.info-window-address {
+   color: #6fb5dc;
+}
+/* INFO WINDOW DIV */
+.gm-style .gm-style-iw {
+  padding: 0 10px;
+  text-align: center;
+}
+
+.city-name {
+  font-family: helvetica;
+  font-size:29px;
+  color: #6fb5dc;
+  position: absolute;
+  top: 72px;
+  left: 210px;
+}
+
+/* button, input, select, textarea {
+  border: 2px #75b64f solid;
+} */
+
+@media (max-width: 575px) { 
+    .city-name {
+      display:none;
+    }
+}
+
